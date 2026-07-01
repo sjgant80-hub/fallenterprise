@@ -1,0 +1,12 @@
+node_modules/
+.DS_Store
+.env
+docker/.env
+*.log
+.venv/
+__pycache__/
+*.pyc
+lora-out-*/
+notebooks/data/train.jsonl
+notebooks/data/eval.jsonl
+!notebooks/data/*.example.jsonl

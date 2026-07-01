@@ -1,0 +1,123 @@
+# FallEnterprise · Sovereign LLM Stack
+# One-command deploy: docker compose up -d
+# Provides: Ollama (LLM runtime) · LiteLLM (OpenAI-compat proxy) · LLMLingua compression service
+# All services private-network-only by default. Expose selectively via reverse proxy.
+
+version: "3.9"
+
+networks:
+  fallenterprise:
+    driver: bridge
+
+volumes:
+  ollama_models:
+    driver: local
+  litellm_config:
+    driver: local
+
+services:
+
+  # ═══════════════════════════════════════════════════════════════
+  # Ollama · Open-source LLM runtime
+  # ═══════════════════════════════════════════════════════════════
+  ollama:
+    image: ollama/ollama:latest
+    container_name: fe_ollama
+    restart: unless-stopped
+    networks: [fallenterprise]
+    ports:
+      - "127.0.0.1:11434:11434"   # bind to loopback only; use reverse proxy for external access
+    volumes:
+      - ollama_models:/root/.ollama
+    environment:
+      OLLAMA_KEEP_ALIVE: 30m
+      OLLAMA_NUM_PARALLEL: 4
+      OLLAMA_MAX_LOADED_MODELS: 2
+    # ─── GPU support · uncomment if you have NVIDIA GPU + nvidia-container-toolkit ───
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: all
+    #           capabilities: [gpu]
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:11434/api/tags"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 60s
+
+  # ═══════════════════════════════════════════════════════════════
+  # Ollama model puller · runs once, pulls the base models
+  # ═══════════════════════════════════════════════════════════════
+  ollama_bootstrap:
+    image: ollama/ollama:latest
+    container_name: fe_ollama_bootstrap
+    depends_on:
+      ollama:
+        condition: service_healthy
+    networks: [fallenterprise]
+    volumes:
+      - ollama_models:/root/.ollama
+    environment:
+      OLLAMA_HOST: http://ollama:11434
+    entrypoint: >
+      /bin/sh -c "
+      echo '[bootstrap] pulling llama3.1:8b...';
+      ollama pull llama3.1:8b || true;
+      echo '[bootstrap] pulling nomic-embed-text (for RAG)...';
+      ollama pull nomic-embed-text || true;
+      echo '[bootstrap] done.';
+      "
+    restart: "no"
+
+  # ═══════════════════════════════════════════════════════════════
+  # LiteLLM · OpenAI-compatible proxy in front of Ollama
+  # Lets smbaios and any OpenAI-SDK code talk to your on-box model
+  # ═══════════════════════════════════════════════════════════════
+  litellm:
+    image: ghcr.io/berriai/litellm:main-stable
+    container_name: fe_litellm
+    restart: unless-stopped
+    networks: [fallenterprise]
+    ports:
+      - "127.0.0.1:4000:4000"
+    depends_on:
+      ollama:
+        condition: service_healthy
+    volumes:
+      - ./litellm.config.yaml:/app/config.yaml:ro
+    command: ["--config", "/app/config.yaml", "--host", "0.0.0.0", "--port", "4000"]
+    environment:
+      LITELLM_MASTER_KEY: ${LITELLM_MASTER_KEY:-sk-fallenterprise-change-me}
+      LITELLM_LOG: INFO
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:4000/health/liveliness"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+
+  # ═══════════════════════════════════════════════════════════════
+  # LLMLingua-2 · Prompt compression service (2-5× shrink, accuracy preserved)
+  # Small python service that wraps microsoft/LLMLingua-2 for OpenAI-shape calls
+  # ═══════════════════════════════════════════════════════════════
+  compressor:
+    build:
+      context: ./compressor
+      dockerfile: Dockerfile
+    container_name: fe_compressor
+    restart: unless-stopped
+    networks: [fallenterprise]
+    ports:
+      - "127.0.0.1:8080:8080"
+    environment:
+      COMPRESS_RATIO: "0.5"           # keep top 50% of tokens by importance
+      COMPRESS_MODEL: "microsoft/llmlingua-2-xlm-roberta-large-meetingbank"
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 90s
