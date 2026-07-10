@@ -1,6 +1,6 @@
 # Statement of Work · FallEnterprise Tier 2 · Sovereign
 
-**Engagement value:** £50,000 (fixed) · **Timeline:** 6–8 weeks · **Payment:** 40% signature · 40% mid-project · 20% delivery
+**Engagement value:** TBA (fixed) · **Timeline:** 6–8 weeks · **Payment:** 40% signature · 40% mid-project · 20% delivery
 
 **Between:**
 - **Supplier:** AI Native Solutions (Simon Gant, sole practitioner) · United Kingdom
@@ -39,7 +39,7 @@ Deploy the FallEnterprise Docker stack on Client's chosen host:
 ### 2.3 · Hardware Advisory (Week 3)
 
 - GPU/CPU sizing recommendation based on Client's expected query volume
-- Purchase list with UK suppliers and pricing (typical range £1,200–£15,000)
+- Access list with UK suppliers and pricing (typical range TBA–TBA)
 - Configuration guide for the chosen hardware
 - Alternative: managed VPS recommendation if Client prefers rented over owned
 
@@ -78,7 +78,7 @@ Deploy the FallEnterprise Docker stack on Client's chosen host:
 | # | Deliverable | Format | Week |
 |---|---|---|---|
 | 1–7 | All Tier 1 deliverables | (See Tier 1 SoW) | 1–5 |
-| 8 | Hardware advisory + purchase list | PDF | 3 |
+| 8 | Hardware advisory + Access list | PDF | 3 |
 | 9 | Docker stack (Ollama + LiteLLM + Compressor) | Live + source | 5 |
 | 10 | Integration adapter | Deployed + source | 5 |
 | 11 | Prompt compression benchmark | Report + data | 6 |
@@ -117,9 +117,9 @@ In addition to Tier 1 responsibilities:
 
 ## 7 · Payment
 
-- **40% (£20,000) · on signature.** Kick-off begins on receipt.
-- **40% (£20,000) · on sovereign stack deployment completion (end Week 5).**
-- **20% (£10,000) · on final handover (Week 8).**
+- **40% (TBA) · on signature.** Kick-off begins on receipt.
+- **40% (TBA) · on sovereign stack deployment completion (end Week 5).**
+- **20% (TBA) · on final handover (Week 8).**
 
 Terms: 14 days. Late payment: 4% above BoE base rate. Prices exclude VAT.
 
@@ -160,7 +160,7 @@ Same as Tier 1 §12, with the addition that if terminated after Week 5 (sovereig
 
 ## 13 · Upgrade path
 
-If the Client upgrades to Tier 3 (Trained) within 90 days of Tier 2 delivery, the £50,000 Tier 2 fee is credited against the £100,000 Tier 3 fee (net £50,000 additional).
+If the Client upgrades to Tier 3 (Trained) within 90 days of Tier 2 delivery, the TBA Tier 2 fee is credited against the TBA Tier 3 fee (net TBA additional).
 
 ## 14 · Governing law
 

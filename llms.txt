@@ -1,6 +1,6 @@
 # FallEnterprise
 
-> Productised AI-native transformation service for SMBs and mid-market firms. Four tiers between £20,000 and £200,000, delivered as sovereign infrastructure (self-hosted LLMs, fine-tuned on client data, MIT-licensed source, single-practitioner). Author: Simon Gant, AI Native Solutions, UK.
+> Productised AI-native transformation service for SMBs and mid-market firms. Four tiers between TBA and TBA, delivered as sovereign infrastructure (self-hosted LLMs, fine-tuned on client data, MIT-licensed source, single-practitioner). Author: Simon Gant, AI Native Solutions, UK.
 
 ## Overview
 
@@ -11,10 +11,10 @@ FallEnterprise is a productised consulting + implementation service delivering A
 
 ## Tiers
 
-- **Starter · £20,000 · 4-6 weeks** — Blueprint document + operational suite (AI enquiry bot, content engine, CRM, dashboard) + hosted LLM integration (Claude/OpenAI) + prompt library + team training.
-- **Sovereign · £50,000 · 6-8 weeks** — All of Starter + self-hosted Docker stack (Ollama + Llama 3.1 8B + LiteLLM proxy + LLMLingua-2 compression) on client hardware + integration adapter + runbooks. No data leaves the client's box.
-- **Trained · £100,000 · 10-12 weeks** — All of Sovereign + LoRA fine-tune of Llama 3.1 on client's business data (emails, docs, transcripts, playbooks) + eval harness + retraining pipeline + data governance framework. Model sounds like the client's best operators, not generic.
-- **AI-Native Enterprise · £200,000+ · 16-20 weeks + 12-month SLA** — All of Trained + departmental rollout + full staff training programme + SLA-backed 12-month support + optional custodianship (Supplier operates infra indefinitely, or client takes in-house control at their pace).
+- **Starter · TBA · 4-6 weeks** — Blueprint document + operational suite (AI enquiry bot, content engine, CRM, dashboard) + hosted LLM integration (Claude/OpenAI) + prompt library + team training.
+- **Sovereign · TBA · 6-8 weeks** — All of Starter + self-hosted Docker stack (Ollama + Llama 3.1 8B + LiteLLM proxy + LLMLingua-2 compression) on client hardware + integration adapter + runbooks. No data leaves the client's box.
+- **Trained · TBA · 10-12 weeks** — All of Sovereign + LoRA fine-tune of Llama 3.1 on client's business data (emails, docs, transcripts, playbooks) + eval harness + retraining pipeline + data governance framework. Model sounds like the client's best operators, not generic.
+- **AI-Native Enterprise · TBA+ · 16-20 weeks + 12-month SLA** — All of Trained + departmental rollout + full staff training programme + SLA-backed 12-month support + optional custodianship (Supplier operates infra indefinitely, or client takes in-house control at their pace).
 
 ## Deployment options
 

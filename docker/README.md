@@ -46,9 +46,9 @@ All services bind to `127.0.0.1` — expose externally only via a reverse proxy 
 | Setup | Llama 3.1 8B | 70B | Compressor |
 |---|---|---|---|
 | CPU-only (16 vCPU · 32GB RAM) | ~8 tok/s · usable for internal ops | Too slow | Fine, CPU-bound |
-| GPU RTX 4060 Ti 16GB (~£450) | ~60 tok/s · production-grade | No | Fine |
-| GPU RTX 3090 24GB (~£800 used) | ~85 tok/s | Not really | Fine |
-| GPU 2×A100 40GB (~£8k) | Trivial | ~40 tok/s | Fine |
+| GPU RTX 4060 Ti 16GB (~TBA) | ~60 tok/s · production-grade | No | Fine |
+| GPU RTX 3090 24GB (~TBA used) | ~85 tok/s | Not really | Fine |
+| GPU 2×A100 40GB (~TBAk) | Trivial | ~40 tok/s | Fine |
 
 For GPU support: install `nvidia-container-toolkit` on the host and uncomment the `deploy.resources` block in `docker-compose.yml`.
 

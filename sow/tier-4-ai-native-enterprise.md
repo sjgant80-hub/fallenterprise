@@ -1,6 +1,6 @@
 # Statement of Work · FallEnterprise Tier 4 · AI-Native Enterprise
 
-**Engagement value:** £200,000+ (from · milestone-billed) · **Timeline:** 16–20 weeks · 12-month engagement
+**Engagement value:** TBA+ (from · milestone-billed) · **Timeline:** 16–20 weeks · 12-month engagement
 
 **Between:**
 - **Supplier:** AI Native Solutions (Simon Gant, sole practitioner) · United Kingdom
@@ -72,7 +72,7 @@ Client selects at kick-off between:
 
 **Option B · Supplier-operated (managed service)**
 - Supplier retains operational responsibility indefinitely
-- Additional cost: £4,000/month post-Week 16 (rolling 12-month contract)
+- Additional cost: TBAnth post-Week 16 (rolling 12-month contract)
 - Includes: monitoring, upgrades, retraining, incident response
 - Client can transition to Option A at any point with 60 days' notice
 
@@ -133,19 +133,19 @@ Even at the enterprise tier, the following are explicitly out of scope unless se
 
 ## 7 · Payment
 
-Milestone-billed. Standard schedule for £200k floor:
+Milestone-billed. Standard schedule for TBAk floor:
 
-- **20% (£40,000) · on signature**
-- **20% (£40,000) · on Tier 2 sovereign stack live (Week 5)**
-- **20% (£40,000) · on fine-tune passing eval (Week 9)**
-- **20% (£40,000) · on departmental rollout complete (Week 14)**
-- **20% (£40,000) · on final handover (Week 16)**
+- **20% (TBA) · on signature**
+- **20% (TBA) · on Tier 2 sovereign stack live (Week 5)**
+- **20% (TBA) · on fine-tune passing eval (Week 9)**
+- **20% (TBA) · on departmental rollout complete (Week 14)**
+- **20% (TBA) · on final handover (Week 16)**
 
-12-month support fee (if Option B custodianship): £48,000 additional, paid quarterly (£12,000 × 4).
+12-month support fee (if Option B custodianship): TBA additional, paid quarterly (TBA × 4).
 
 Terms: 14 days. Late: 4% above BoE base. Prices exclude VAT.
 
-Larger engagements (>£200k) quoted individually against scope.
+Larger engagements (>TBAk) quoted individually against scope.
 
 ## 8 · Intellectual property
 

@@ -4,7 +4,7 @@
 
 Live: **https://sjgant80-hub.github.io/fallenterprise/**
 
-Four tiers between £20,000 and £200,000. Each tier is a productised engagement with a signed SoW, defined deliverables, and a fixed timeline. You get real infrastructure you keep even if we disappear tomorrow — because it's MIT-licensed source, delivered as running code and running weights, on your hardware or your cloud.
+Four tiers between TBA and TBA. Each tier is a productised engagement with a signed SoW, defined deliverables, and a fixed timeline. You get real infrastructure you keep even if we disappear tomorrow — because it's MIT-licensed source, delivered as running code and running weights, on your hardware or your cloud.
 
 ---
 
@@ -12,12 +12,12 @@ Four tiers between £20,000 and £200,000. Each tier is a productised engagement
 
 Read the [landing page](https://sjgant80-hub.github.io/fallenterprise/) or download the SoW that matches your situation:
 
-| Tier | Price | Time | For you if... |
+| Tier | Access | Time | For you if... |
 |---|---|---|---|
-| [**Starter**](sow/tier-1-starter.md) | £20,000 | 4-6 weeks | You want to prove AI ROI without committing to sovereign infra yet |
-| [**Sovereign**](sow/tier-2-sovereign.md) | £50,000 | 6-8 weeks | Your data is sensitive; no data can leave your box |
-| [**Trained**](sow/tier-3-trained.md) | £100,000 | 10-12 weeks | Your voice / process / expertise IS the product |
-| [**AI-Native Enterprise**](sow/tier-4-ai-native-enterprise.md) | £200,000+ | 16-20 weeks | AI is becoming operational infrastructure across your org |
+| [**Starter**](sow/tier-1-starter.md) | TBA | 4-6 weeks | You want to prove AI ROI without committing to sovereign infra yet |
+| [**Sovereign**](sow/tier-2-sovereign.md) | TBA | 6-8 weeks | Your data is sensitive; no data can leave your box |
+| [**Trained**](sow/tier-3-trained.md) | TBA | 10-12 weeks | Your voice / process / expertise IS the product |
+| [**AI-Native Enterprise**](sow/tier-4-ai-native-enterprise.md) | TBA+ | 16-20 weeks | AI is becoming operational infrastructure across your org |
 
 Book a discovery call: [sjgant80@gmail.com](mailto:sjgant80@gmail.com) · usually reply within 24 hours.
 
@@ -91,7 +91,7 @@ Every deliverable is:
 
 The FallEnterprise pattern is built on three principles refined across the [ai-nativesolutions.com](https://www.ai-nativesolutions.com/) estate (150+ live tools):
 
-1. **Sovereignty is structural, not marketing** — "free from SaaS" means MIT + on-box + install-forever, not "£0/month"
+1. **Sovereignty is structural, not marketing** — "free from SaaS" means MIT + on-box + install-forever, not "TBAnth"
 2. **Single practitioner delivery** — no layered agency, no juniors. Simon Gant delivers every engagement personally.
 3. **Every layer is optional but coherent** — you can start at Starter and stop, or graduate to any tier with fee-credit
 

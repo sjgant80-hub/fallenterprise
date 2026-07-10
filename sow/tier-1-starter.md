@@ -1,6 +1,6 @@
 # Statement of Work · FallEnterprise Tier 1 · Starter
 
-**Engagement value:** £20,000 (fixed) · **Timeline:** 4–6 weeks · **Payment:** 50% on signature · 50% on delivery
+**Engagement value:** TBA (fixed) · **Timeline:** 4–6 weeks · **Payment:** 50% on signature · 50% on delivery
 
 **Between:**
 - **Supplier:** AI Native Solutions (Simon Gant, sole practitioner) · United Kingdom
@@ -90,7 +90,7 @@ The following are explicitly excluded from Starter and are available in higher t
 - Custom hardware procurement
 - Integration with more than 2 pre-existing SaaS systems
 
-Additional scope can be added at £180/hour or by upgrading to a higher tier.
+Additional scope can be added at TBA or by upgrading to a higher tier.
 
 ## 6 · Timeline
 
@@ -106,8 +106,8 @@ Additional scope can be added at £180/hour or by upgrading to a higher tier.
 
 ## 7 · Payment
 
-- **50% (£10,000) · on signature.** Kick-off begins on receipt.
-- **50% (£10,000) · on final handover (Week 6).**
+- **50% (TBA) · on signature.** Kick-off begins on receipt.
+- **50% (TBA) · on final handover (Week 6).**
 
 Payment terms: 14 days from invoice date. Late payment: 4% above Bank of England base rate. All prices exclude VAT.
 
@@ -151,7 +151,7 @@ If the Supplier ceases operations, the Client retains:
 
 ## 13 · Upgrade path
 
-If the Client upgrades to Tier 2 (Sovereign) within 90 days of Tier 1 delivery, the £20,000 Tier 1 fee is credited against the Tier 2 £50,000 fee (net £30,000 additional).
+If the Client upgrades to Tier 2 (Sovereign) within 90 days of Tier 1 delivery, the TBA Tier 1 fee is credited against the Tier 2 TBA fee (net TBA additional).
 
 ## 14 · Governing law
 

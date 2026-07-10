@@ -1,6 +1,6 @@
 # Statement of Work · FallEnterprise Tier 3 · Trained
 
-**Engagement value:** £100,000 (fixed) · **Timeline:** 10–12 weeks · **Payment:** 30% signature · 40% mid · 30% delivery
+**Engagement value:** TBA (fixed) · **Timeline:** 10–12 weeks · **Payment:** 30% signature · 40% mid · 30% delivery
 
 **Between:**
 - **Supplier:** AI Native Solutions (Simon Gant, sole practitioner) · United Kingdom
@@ -34,7 +34,7 @@ Target volume:
 - Recommended: 5,000–10,000 examples
 - Ideal: 20,000+ examples
 
-**Client must have at least 500 usable examples.** If corpus is thinner, Supplier provides guidance on synthetic augmentation (adds ~£8,000 to scope).
+**Client must have at least 500 usable examples.** If corpus is thinner, Supplier provides guidance on synthetic augmentation (adds ~TBA to scope).
 
 ### 2.3 · Base Model Selection & Fine-Tune (Week 6–8)
 
@@ -67,7 +67,7 @@ Target volume:
 - Automated data collection: new conversations flow into a retraining pool
 - Quarterly retraining playbook: how to select, clean, and add new data
 - One retraining run included at Month 3 (using accumulated data)
-- Supplier provides retraining service beyond this at £8,000/run
+- Supplier provides retraining service beyond this at TBA/run
 
 ### 2.7 · Data Governance Framework (Week 10)
 
@@ -132,9 +132,9 @@ In addition to Tier 1 & 2:
 
 ## 7 · Payment
 
-- **30% (£30,000) · on signature.**
-- **40% (£40,000) · on sovereign stack live (end Week 5).**
-- **30% (£30,000) · on final handover (Week 12).**
+- **30% (TBA) · on signature.**
+- **40% (TBA) · on sovereign stack live (end Week 5).**
+- **30% (TBA) · on final handover (Week 12).**
 
 Terms: 14 days. Late: 4% above BoE base. Prices exclude VAT.
 
@@ -179,7 +179,7 @@ Same as Tier 2 §12, extended:
 
 ## 13 · Upgrade path
 
-If Client upgrades to Tier 4 (AI-Native Enterprise) within 90 days of Tier 3 delivery, the £100,000 Tier 3 fee is credited against the £200,000 Tier 4 fee (net £100,000 additional).
+If Client upgrades to Tier 4 (AI-Native Enterprise) within 90 days of Tier 3 delivery, the TBA Tier 3 fee is credited against the TBA Tier 4 fee (net TBA additional).
 
 ## 14 · Governing law
 
