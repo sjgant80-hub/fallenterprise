@@ -105,4 +105,3 @@ The FallEnterprise pattern is built on three principles refined across the [ai-n
 
 MIT · © 2026 AI Native Solutions · Simon Gant
 
-**◊·κ=1**
